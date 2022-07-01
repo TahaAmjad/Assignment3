@@ -18,7 +18,7 @@ pass1.addEventListener('keyup', e => {
         pass1.setAttribute('class', 'success')
     }
   } else {
-    feedback.textContent = 'Password must contain a minimum of 8 characters and a symbol';
+    feedback.textContent = 'Password must contain a minimum of 8 letters and a symbol';
     feedback.setAttribute('class', 'error1')
     pass1.setAttribute('class', 'error')
   }
